@@ -17,7 +17,7 @@ function draw() {
       push();
       translate(i * width / espLarg, j * height / espAltura)
       translate(-55,-45)
-      scale(0.10);
+      scale(0.08);
       noStroke();
    
       
@@ -39,7 +39,7 @@ ellipse(700, 200, 35, 65);
 fill(169,169,169);
 rect(400, 125, 300, 200, 30);
 fill(192,192,192)
-rect(400, 100, 300, 200, 30);
+rect(random (400, 100, 300, 200, 30));
 //antena
 fill(169,169,169);
 rect(525, 20, 40, 100, 10);
@@ -50,15 +50,15 @@ fill(169,169,169);
 rect(360, 305, 50, 250, 30);
 rect(340, 305, 50, 250, 30);
 rect(350, 305, 50, 260, 30);
-fill(192,192,192);
-rect(350, 305, 50, 250, 30);
+fill(random (192,192,192));
+rect(random(350, 305, 50, 250, 30));
 //braço esquerdo
 fill(169,169,169);
 rect(710, 305, 50, 250, 30);
 rect(690, 305, 50, 250, 30);
 rect(700, 305, 50, 260, 30);
 fill(192,192,192);
-rect(700, 305, 50, 250, 30);
+rect(random (700, 305, 50, 250, 30));
 //olhos
 fill(0,0,0);
 circle(500, 170, 30);
