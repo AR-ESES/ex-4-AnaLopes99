@@ -71,7 +71,7 @@ circle(610, 170, 5);
 //boca
 fill(random (211,211,211));
 strokeWeight(random (4));
-stroke(random (0,0,0));
+stroke(random (0,0,0);
 arc(550, 230, 100, 70, 0, PI, CHORD);
 
       pop();
