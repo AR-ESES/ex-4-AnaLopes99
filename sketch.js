@@ -3,7 +3,7 @@ let espAltura = 20;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(10);
+  background(0);
   stroke(255);
   strokeWeight(2);
   noFill();
@@ -16,8 +16,8 @@ function draw() {
     for (let j = 1; j < espAltura; j++) {
       push();
       translate(i * width / espLarg, j * height / espAltura)
-      translate(-30,-40)
-      scale(0,14);
+      translate(-55,-45)
+      scale(0,13);
       noStroke();
 
 //corpo
